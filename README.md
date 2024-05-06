@@ -69,7 +69,7 @@ for t in count():
 return np.array(trajectory, dtype=object)
 ```
 ## MONTE CARLO CONTROL FUNCTION
-``
+```
 def mc_control (env,n_bins=g_bins, gamma = 1.0,
                 init_alpha = 0.5,min_alpha = 0.01, alpha_decay_ratio = 0.5,
                 init_epsilon = 1.0, min_epsilon = 0.1, epsilon_decay_ratio = 0.9,
@@ -131,7 +131,7 @@ def mc_control (env,n_bins=g_bins, gamma = 1.0,
 
     return Q, V, pi
 
-``
+```
 
 ## OUTPUT:
 ![image](https://github.com/ManojTella/rl-cartpole/assets/94883876/788c6b21-40b8-4d36-99c4-69353839aa7d)
