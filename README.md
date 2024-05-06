@@ -131,7 +131,7 @@ def mc_control (env,n_bins=g_bins, gamma = 1.0,
 
     return Q, V, pi
 
-```
+``
 
 ## OUTPUT:
 ![image](https://github.com/ManojTella/rl-cartpole/assets/94883876/788c6b21-40b8-4d36-99c4-69353839aa7d)
